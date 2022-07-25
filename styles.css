@@ -54,6 +54,10 @@ body {
    cursor: pointer;
 }
 
+.btn:hover {
+   opacity: 80%;
+}
+
 #equals {
    background-color: lightgreen;
 }
