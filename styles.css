@@ -8,11 +8,23 @@
    margin: 0;
 }
 
+body {
+   font-family: 'Roboto';
+}
+
+.main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 100px;
+}
+
 #container {
    width: 400px;
    border: 2px solid black;
    border-radius: 15px;
    padding: 20px;
+   background-color: burlywood;
 }
 
 #display {
@@ -21,16 +33,17 @@
    border-radius: 5px;
    text-align: right;
    margin-bottom: 20px;
+   background-color: whitesmoke;
 }
 
 #firstOperationScreen {
    min-height: 40px;
-   font-size: 40px;
+   font-size: 25px;
 }
 
 #secondOperationScreen {
    min-height: 60px;
-   font-size: 25px;
+   font-size: 40px;
 }
 
 .btn {
@@ -40,6 +53,19 @@
    font-size: 20px;
    cursor: pointer;
 }
+
+#equals {
+   background-color: lightgreen;
+}
+
+#clear {
+   background-color: lightpink;
+}
+
+.operator {
+   background-color: lightcyan;
+}
+
 .buttons-grid {
    display: grid;
    grid-template-columns: repeat(4, 1fr);
