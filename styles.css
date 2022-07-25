@@ -24,12 +24,12 @@
 }
 
 #firstOperationScreen {
-   min-height: 60px;
+   min-height: 40px;
    font-size: 40px;
 }
 
 #secondOperationScreen {
-   min-height: 40px;
+   min-height: 60px;
    font-size: 25px;
 }
 
